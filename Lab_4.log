@@ -1,0 +1,302 @@
+﻿  API_Factory.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\API_Factory.h(30,1): error C2143: syntax error: missing ';' before '}'
+  GameEngine.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\include\glad\glad.h(27,1): fatal error C1189: #error:  OpenGL header already included, remove this include, glad already provides it
+  InputManager.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(72,9): error C3861: 'moveForward': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(76,9): error C3861: 'moveBackward': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(80,9): error C3861: 'moveLeft': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(84,9): error C3861: 'moveRight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(88,9): error C3861: 'lookUp': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(92,9): error C3861: 'lookDown': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(96,9): error C3861: 'lookLeft': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(100,9): error C3861: 'lookRight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(105,1): error C2059: syntax error: '}'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\InputManager.cpp(105,1): error C2143: syntax error: missing ';' before '}'
+  OpenGL_API.cpp
+  PlayerCamera.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(5,63): error C2572: 'PlayerCamera::PlayerCamera': redefinition of default argument: parameter 1
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(29): message : see declaration of 'PlayerCamera::PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(5,111): error C2572: 'PlayerCamera::PlayerCamera': redefinition of default argument: parameter 2
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(29): message : see declaration of 'PlayerCamera::PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(8,29): error C2572: 'PlayerCamera::PlayerCamera': redefinition of default argument: parameter 3
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(29): message : see declaration of 'PlayerCamera::PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(9,32): error C2572: 'PlayerCamera::PlayerCamera': redefinition of default argument: parameter 4
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(29): message : see declaration of 'PlayerCamera::PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(9,5): error C2065: 'm_HorizontalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(10,5): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(21,5): error C2065: 'm_HorizontalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(22,5): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(54,26): error C2065: 'FORWARD': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(60,26): error C2065: 'BACKWARD': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(68,103): error C2572: 'PlayerCamera::readMouseMovement': redefinition of default argument: parameter 1
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(64): message : see declaration of 'PlayerCamera::readMouseMovement'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(73,5): error C2065: 'm_HorizontalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(74,5): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(79,13): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(81,13): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(85,13): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(87,13): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(118,36): error C2065: 'm_HorizontalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(118,75): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(120,36): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(122,36): error C2065: 'm_HorizontalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(122,75): error C2065: 'm_VerticalAngle': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(131,20): error C2039: 'MoveLeft': is not a member of 'PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(24): message : see declaration of 'PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(133,5): error C2065: 'm_position': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(133,19): error C2065: 'm_right': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(133,29): error C2065: 'm_movementSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(139,5): error C2065: 'm_position': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(139,19): error C2065: 'm_right': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(139,29): error C2065: 'm_movementSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(145,5): error C2065: 'm_position': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(145,19): error C2065: 'm_forward': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(145,31): error C2065: 'm_movementSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(148,20): error C2039: 'moveBackward': is not a member of 'PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.h(24): message : see declaration of 'PlayerCamera'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(150,5): error C2065: 'm_position': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(150,19): error C2065: 'm_forward': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(150,31): error C2065: 'm_movementSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(158,20): error C2065: 'm_lookSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(159,5): error C3861: 'updateCameraVectors': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(166,20): error C2065: 'm_lookSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(167,5): error C3861: 'updateCameraVectors': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(173,22): error C2065: 'm_lookSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(174,5): error C3861: 'updateCameraVectors': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(180,22): error C2065: 'm_lookSpeed': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\PlayerCamera.cpp(181,5): error C3861: 'updateCameraVectors': identifier not found
+  Terrain.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(148,15): error C2011: 'Terrain': 'class' type redefinition
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(5,15): error C2027: use of undefined type 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(13,6): error C2065: 'terrainData': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(14,12): error C2065: 'terrainData': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(14,23): error C2541: 'delete': cannot delete objects that are not pointers
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(17,3): error C2065: 'terrainData': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(19,6): error C2065: 'terrainData': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(24,13): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(26,38): error C2065: 'terrainData': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(28,2): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(33,15): error C2027: use of undefined type 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(35,2): error C2065: 'scaleX': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(36,2): error C2065: 'scaleY': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(37,2): error C2065: 'scaleZ': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(41,15): error C2027: use of undefined type 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(43,2): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(44,2): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(45,2): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(49,7): error C2065: 'hasTexture': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(51,21): error C2065: 'VAO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(52,33): error C2065: 'startPos': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(53,3): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(56,32): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(56,66): error C2198: 'PFNGLDRAWELEMENTSPROC': too few arguments for call
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(61,21): error C2065: 'VAO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(62,33): error C2065: 'startPos': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(65,3): error C2065: 'sharedShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(66,3): error C2065: 'sharedShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(67,3): error C2065: 'terrainTexture': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(70,32): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(70,66): error C2198: 'PFNGLDRAWELEMENTSPROC': too few arguments for call
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(73,3): error C2065: 'terrainTexture': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(84,15): error C2027: use of undefined type 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(86,2): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(89,3): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(95,23): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(98,24): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(100,14): error C3861: 'getHeightColor': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(102,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(102,35): error C2065: 'scaleX': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(103,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(103,24): error C3861: 'getHeight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(104,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(104,35): error C2065: 'scaleZ': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(107,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(110,13): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(110,29): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(111,33): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(113,42): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(117,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(118,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(119,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(122,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(123,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(124,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(130,43): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(131,25): error C2065: 'VAO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(132,20): error C2065: 'VBO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(133,20): error C2065: 'EBO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(134,21): error C2065: 'VAO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(136,33): error C2065: 'VBO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(137,33): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(137,66): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(137,97): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(139,41): error C2065: 'EBO': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(140,41): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(140,80): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(140,110): error C2198: 'PFNGLBUFFERDATAPROC': too few arguments for call
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(156,3): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(166,23): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(167,24): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(169,14): error C3861: 'getHeightColor': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(170,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(170,35): error C2065: 'scaleX': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(171,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(171,24): error C3861: 'getHeight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(172,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(172,35): error C2065: 'scaleZ': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(175,33): error C2065: 'scaleX': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(176,22): error C3861: 'getHeight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(177,33): error C2065: 'scaleZ': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(180,32): error C3861: 'getHeight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(181,29): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(181,40): error C3861: 'getHeight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(182,30): error C3861: 'getHeight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(183,28): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(183,39): error C3861: 'getHeight': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(191,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(192,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(193,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(195,26): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(196,28): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(197,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(198,5): error C2065: 'vertices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(200,13): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(200,29): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(202,33): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(204,42): error C2065: 'size': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(208,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(209,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(210,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(213,6): error C2065: 'indices': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.cpp(213,13): fatal error C1003: error count exceeds 100; stopping compilation
+  Window.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Window.cpp(68,20): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  LabEngine.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(148,15): error C2011: 'Terrain': 'class' type redefinition
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\API_Factory.h(30,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(24,2): error C3861: 'setUpTerrain': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(27,2): error C3861: 'setupShaderValues': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(29,2): error C3861: 'mainLoop': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(34,17): error C2039: 'setUpTerrain': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(36,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(37,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(38,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(39,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(40,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(40,33): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(42,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(44,25): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(45,25): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(46,17): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(50,2): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(50,45): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(50,89): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(54,17): error C2039: 'setupShaderValues': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(65,17): error C2039: 'mainLoop': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(67,10): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(69,24): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(70,3): error C2065: 'deltaTime': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(70,30): error C2065: 'lastFrame': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(71,3): error C2065: 'lastFrame': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(73,3): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(74,16): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(74,34): error C2065: 'deltaTime': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(74,46): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(76,3): error C2065: 'graphics': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(77,3): error C2065: 'graphics': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(84,3): error C3861: 'updateCameraPosition': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(86,3): error C3861: 'setShaderMatrices': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(88,3): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(90,3): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(91,3): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(95,17): error C2039: 'setShaderMatrices': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(97,9): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(104,28): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(104,50): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(104,72): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(104,92): error C2660: 'Shader::setVec3': function does not take 1 arguments
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Shader.h(113,10): message : see declaration of 'Shader::setVec3'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(105,39): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(105,61): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(105,83): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(105,103): error C2660: 'Shader::setVec3': function does not take 1 arguments
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Shader.h(113,10): message : see declaration of 'Shader::setVec3'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(106,40): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(106,59): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(106,78): error C2065: 'm_camera': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(106,95): error C2660: 'Shader::setVec3': function does not take 1 arguments
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Shader.h(113,10): message : see declaration of 'Shader::setVec3'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(111,17): error C2039: 'updateCameraPosition': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(113,6): error C2065: 'canFly': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(115,28): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(116,28): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(118,16): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(118,46): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(118,96): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(120,3): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(131,2): error C3861: 'initWindow': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(132,2): error C3861: 'initCamera': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(133,2): error C3861: 'initGraphicsAPI': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(134,2): error C3861: 'initTerrain': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(138,17): error C2039: 'initWindow': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(143,2): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(144,2): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(145,2): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(147,27): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(148,21): error C2065: 'm_window': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(152,17): error C2039: 'initCamera': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(155,2): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(159,2): error C2065: 'PreviousHeight': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(160,2): error C2065: 'PreviousWidth': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(164,17): error C2039: 'initGraphicsAPI': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(170,2): error C2065: 'm_API': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(171,2): error C2065: 'm_API': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(172,2): error C2065: 'm_API': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(173,2): error C2065: 'm_API': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(177,17): error C2039: 'initTerrain': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(179,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(179,31): error C2027: use of undefined type 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(184,1): error C2084: function 'void Lab::LabEngine::run(void)' already has a body
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(17): message : see previous definition of 'run'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(185,2): error C3861: 'initShader': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(189,3): error C3861: 'updateCamera': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(190,3): error C3861: 'processEvents': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(191,3): error C3861: 'render': identifier not found
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(198,17): error C2039: 'initializeTerrain': is not a member of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.h(34): message : see declaration of 'Lab::LabEngine'
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(201,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(202,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(203,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(204,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(205,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(205,33): error C2065: 'ourShader': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(206,2): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(208,25): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(209,25): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(210,17): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(213,2): error C2065: 'm_PlayerCam': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(213,47): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(213,91): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(214,47): error C2065: 'simpleTerrain': undeclared identifier
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\LabEngine.cpp(214,60): fatal error C1003: error count exceeds 100; stopping compilation
+  Lab_4.cpp
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(148,15): error C2011: 'Terrain': 'class' type redefinition
+C:\Users\bill\OneDrive\Documents\Lab_4-master (2)\Lab_4-master\Lab_4\Terrain.h(31): message : see declaration of 'Terrain'
+  Generating Code...

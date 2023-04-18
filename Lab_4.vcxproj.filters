@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphics_API">
+      <UniqueIdentifier>{f5f3207d-a031-4ca7-9f6e-7945f2329ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Terrain">
+      <UniqueIdentifier>{15bb5fb4-2a34-40d7-b1c9-e70d9c62b770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{7f9c88d3-b001-47f5-96a3-d13abbdbc131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{ecff7eea-dcd3-4511-9510-40c80f670aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{8fcec90b-52ca-4525-90f2-4b93b65e9347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Terrain">
+      <UniqueIdentifier>{5e9a98b0-2981-4a54-aeab-2c9076432d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control">
+      <UniqueIdentifier>{68ebc909-12d9-48c5-8176-b3c81f7efb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{51cc33e2-cad9-40ab-9036-369f1a2f98b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Terrain\Procedural">
+      <UniqueIdentifier>{a68e3ff2-d801-4ce2-ada5-d9d6885198a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Terrain\Procedural">
+      <UniqueIdentifier>{4b07dd11-6e0e-4ce1-92f9-2f4bbac3a00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API and Factories">
+      <UniqueIdentifier>{5d4779ee-c18a-4e91-93ef-4675e558700c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API and Factories\Factories">
+      <UniqueIdentifier>{c4b74823-4809-42fb-a488-71062227a4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Textures">
+      <UniqueIdentifier>{b2bdba7b-90f7-453c-8813-9f7b365a3714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Textures">
+      <UniqueIdentifier>{e583c22e-9d1b-4664-9279-ccdb51ac18bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lab_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LabEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_implementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainFile.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelsEngine.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTerrain.cpp">
+      <Filter>Source Files\Terrain\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="BrushTerrain.cpp">
+      <Filter>Source Files\Terrain\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetShader.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader_Factory.cpp">
+      <Filter>Source Files\API and Factories\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGL_API.cpp">
+      <Filter>Source Files\API and Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Factory.cpp">
+      <Filter>Source Files\API and Factories\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="JPG_Loader.cpp">
+      <Filter>Source Files\View\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="PNG_Loader.cpp">
+      <Filter>Source Files\View\Textures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fragmentShader.shader" />
+    <None Include="shaders\vertexShader.shader" />
+    <None Include="shaders\fragmentShader_terrain.shader" />
+    <None Include="shaders\vertexShader_terrain.shader" />
+    <None Include="shaders\light_fs.shader" />
+    <None Include="shaders\light_vs.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LabEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics_API.h">
+      <Filter>Header Files\Graphics_API</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL_API.h">
+      <Filter>Header Files\Graphics_API</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelsEngine.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainFile.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetShader.h">
+      <Filter>Header Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader_Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTerrain.h">
+      <Filter>Header Files\Terrain\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="BrushTerrain.h">
+      <Filter>Header Files\Terrain\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="JPG_Loader.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="PNG_Loader.h">
+      <Filter>Header Files\Textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Lab_4.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
